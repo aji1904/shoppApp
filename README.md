@@ -5,10 +5,10 @@ npm install react-slick --save<br />
 npm install react-router-dom<br />
 
 //on public index.js<br />
-"<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />"<br />
-"<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />"<br />
-"<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />"<br />
-"<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />"<br />
+(<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />)<br />
+(<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />)<br />
+(<link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />)<br />
+(<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />)<br />
 
 
 
