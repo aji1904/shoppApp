@@ -17,6 +17,7 @@ import HomeIcon from '@material-ui/icons/Home';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import PersonIcon from '@material-ui/icons/Person';
 import PermMediaIcon from '@material-ui/icons/PermMedia';
+import {Link} from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -36,7 +37,7 @@ const useStyles = makeStyles(theme => ({
     width: 300,
   },
   space: {
-    paddingRight: 20,
+    
   }
 }));
 
@@ -67,22 +68,30 @@ export default function ButtonAppBar() {
             <ListItemText color="inherit" primary="Menu" align="center"/>
           </ListItem>
           <hr />
+          <Link to="/" style={{textDecoration: 'none'}}>
           <ListItem>
             <ListItemIcon><HomeIcon/></ListItemIcon>
             <ListItemText primary="Home" />
           </ListItem>
+          </Link>
+          <Link to="/produk" style={{textDecoration: 'none'}}>
           <ListItem>
             <ListItemIcon><ShoppingCartIcon/></ListItemIcon>
             <ListItemText primary="Product" />
           </ListItem>
+          </Link>
+          <Link to="/artikel" style={{textDecoration: 'none'}}>
           <ListItem>
             <ListItemIcon><PermMediaIcon/></ListItemIcon>
             <ListItemText primary="Article" />
           </ListItem>
+          </Link>
+          <Link to="/about" style={{textDecoration: 'none'}}>
           <ListItem>
             <ListItemIcon><PersonIcon/></ListItemIcon>
             <ListItemText primary="About US" />
           </ListItem>
+          </Link>
       </List>
     </div>
   )
@@ -92,13 +101,22 @@ export default function ButtonAppBar() {
       <AppBar position="fixed" >
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            <img src={Logo} className={classes.logo} alt="logo" />
+            <img src={Logo} className={classes.logo} alt="logo" />           
           </Typography>
+          
           <Hidden only={['xs']}>
+          <Link to="/" style={{textDecoration: 'none', color: 'white'}}>
             <Button color="inherit" className={classes.space}>home</Button>
+          </Link>
+          <Link to="/produk" style={{textDecoration: 'none', color: 'white'}}>
             <Button color="inherit" className={classes.space}>product</Button>
+          </Link>
+          <Link to="/artikel" style={{textDecoration: 'none', color: 'white'}}>
             <Button color="inherit" className={classes.space}>article</Button>
+          </Link>
+          <Link to="/about" style={{textDecoration: 'none', color: 'white'}}>
             <Button color="inherit" className={classes.space}>about us</Button>
+          </Link>
           </Hidden>
 
           <Hidden only={['md', 'lg','sm']}>

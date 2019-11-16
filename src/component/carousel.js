@@ -10,19 +10,24 @@ import Img2 from '../img/img2.jpg'
 const useStyles = makeStyles(theme => ({
   card: {
     [theme.breakpoints.down('xs')]: {
-        height: 200,
+        height: 250,
         width: 'auto',
     },
-    height: 400,
+    height: 600,
     width: 'auto',
     marginLeft: 10,
     marginRight: 10,
-    marginTop: 70,
-    marginBottom: 20,
+    marginTop: 80,
+    marginBottom: 100,
     borderRadius: 10,
   },
   imageSlider: {
-      marginBottom: 10,
+    [theme.breakpoints.down('xs')]: {
+        height: 250,
+        width: '100%',
+    },
+    height: 600,
+    width: '100%',
   }
 }));
 

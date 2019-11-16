@@ -1,70 +1,55 @@
 import React, { Component } from 'react';
 import Nav from './navbar';
 import Slide from './carousel'
+import SliderHighlight from './homeHighlight';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-import Slider from "react-slick";
+import Button from '@material-ui/core/Button';
+import Article from './homeArticle';
+import Contact from './homeContact';
+import Footer from './footer';
+import { Link } from "react-router-dom";
 
 class Home extends Component {
     render() { 
-        var settings = {
-            dots: true,
-            infinite: false,
-            speed: 500,
-            slidesToShow: 4,
-            slidesToScroll: 4,
-            initialSlide: 0,
-            responsive: [
-              {
-                breakpoint: 1024,
-                settings: {
-                  slidesToShow: 3,
-                  slidesToScroll: 3,
-                  infinite: true,
-                  dots: true
-                }
-              },
-              {
-                breakpoint: 600,
-                settings: {
-                  slidesToShow: 2,
-                  slidesToScroll: 2,
-                  initialSlide: 2
-                }
-              },
-              {
-                breakpoint: 480,
-                settings: {
-                  slidesToShow: 1,
-                  slidesToScroll: 1
-                }
-              }
-            ]
-        }
         return (  
             <div>
                 <Nav />
                 <Slide />
-                <Typography Component="div">
-                    <Box textAlign="center">
-                        Product Highlights
-                    </Box>
+                <Typography component="div">
+                  <Box textAlign="center" m={1} fontSize={20}>
+                      Product Highlight
+                  </Box>
                 </Typography>
-                <Card className={classes.card}>
-                <Slider className={classes.slider} {...settings}>
-                    <div>
-                        <CardActionArea>
-                            <CardMedia
-                            component="img"
-                            alt="img"
-                            height="auto"
-                            image={Img}
-                            className={classes.imageSlider}
-                            title="img"
-                            />
-                        </CardActionArea>
-                    </div>
-                </Slider>
+                <hr style={{marginLeft: 10, marginRight: 10}}/>
+                <SliderHighlight />
+                <Typography component="div">
+                  <Box textAlign="center" m={1} fontSize={20}>
+                    <Link to="/produk" style={{textDecoration: 'none'}}>
+                    <Button variant="contained" color="primary">
+                      See More Product
+                    </Button>
+                    </Link>
+                  </Box>
+                </Typography>
+                <Typography component="div" style={{marginTop: 100}}>
+                  <Box textAlign="center" m={1} fontSize={20}>
+                      Recent Article
+                  </Box>
+                </Typography>
+                <hr style={{marginLeft: 10, marginRight: 10}}/>
+                <Article />
+                <Typography component="div" style={{marginTop: 100}}>
+                  <Box textAlign="center" m={1} fontSize={20}>
+                      Contact US
+                  </Box>
+                </Typography>
+                <hr style={{marginLeft: 10, marginRight: 10}}/>
+                <Contact />
+                <Typography component="div" style={{marginTop: 100}}>
+                  <hr style={{marginLeft: 10, marginRight: 10}}/>
+                </Typography>
+                <Footer />
             </div>
         );
     }
