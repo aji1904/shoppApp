@@ -3,8 +3,8 @@ npm install @material-ui/core<br />
 npm install @material-ui/icons<br />
 npm install react-slick --save<br />
 npm install react-router-dom<br />
-
-[https://agile-dusk-52643.herokuapp.com/](DEMO)
+//demo
+[https://agile-dusk-52643.herokuapp.com/](https://agile-dusk-52643.herokuapp.com/)
 
 //on public index.js<br />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" /><br />
