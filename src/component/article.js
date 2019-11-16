@@ -83,7 +83,7 @@ export default function FullWidthGrid() {
                         </Typography>
                     </CardContent>
                     <CardActions >
-                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white'}}>
+                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white', width: '100%'}}>
                         <Button variant="contained" color="primary" style={{width: '100%'}}>Read More</Button>
                     </Link>
                     </CardActions>
@@ -114,7 +114,7 @@ export default function FullWidthGrid() {
                         </Typography>
                     </CardContent>
                     <CardActions >
-                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white'}}>
+                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white', width: '100%'}}>
                         <Button variant="contained" color="primary" style={{width: '100%'}}>Read More</Button>
                     </Link>
                     </CardActions>
@@ -145,7 +145,7 @@ export default function FullWidthGrid() {
                         </Typography>
                     </CardContent>
                     <CardActions >
-                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white'}}>
+                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white',  width: '100%'}}>
                         <Button variant="contained" color="primary" style={{width: '100%'}}>Read More</Button>
                     </Link>
                     </CardActions>
@@ -176,7 +176,7 @@ export default function FullWidthGrid() {
                         </Typography>
                     </CardContent>
                     <CardActions >
-                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white'}}>
+                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white',  width: '100%'}}>
                         <Button variant="contained" color="primary" style={{width: '100%'}}>Read More</Button>
                     </Link>
                     </CardActions>
@@ -207,7 +207,7 @@ export default function FullWidthGrid() {
                         </Typography>
                     </CardContent>
                     <CardActions >
-                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white'}}>
+                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white',  width: '100%'}}>
                         <Button variant="contained" color="primary" style={{width: '100%'}}>Read More</Button>
                     </Link>
                     </CardActions>
@@ -238,7 +238,7 @@ export default function FullWidthGrid() {
                         </Typography>
                     </CardContent>
                     <CardActions >
-                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white'}}>
+                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white',  width: '100%'}}>
                         <Button variant="contained" color="primary" style={{width: '100%'}}>Read More</Button>
                     </Link>
                     </CardActions>
@@ -269,7 +269,7 @@ export default function FullWidthGrid() {
                         </Typography>
                     </CardContent>
                     <CardActions >
-                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white'}}>
+                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white',  width: '100%'}}>
                         <Button variant="contained" color="primary" style={{width: '100%'}}>Read More</Button>
                     </Link>
                     </CardActions>
@@ -300,7 +300,7 @@ export default function FullWidthGrid() {
                         </Typography>
                     </CardContent>
                     <CardActions >
-                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white'}}>
+                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white',  width: '100%'}}>
                         <Button variant="contained" color="primary" style={{width: '100%'}}>Read More</Button>
                     </Link>
                     </CardActions>
@@ -331,7 +331,7 @@ export default function FullWidthGrid() {
                         </Typography>
                     </CardContent>
                     <CardActions >
-                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white'}}>
+                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white',  width: '100%'}}>
                         <Button variant="contained" color="primary" style={{width: '100%'}}>Read More</Button>
                     </Link>
                     </CardActions>
@@ -362,7 +362,7 @@ export default function FullWidthGrid() {
                         </Typography>
                     </CardContent>
                     <CardActions >
-                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white'}}>
+                    <Link to="/artikel-detail" style={{textDecoration: 'none', color: 'white', width: '100%'}}>
                         <Button variant="contained" color="primary" style={{width: '100%'}}>Read More</Button>
                     </Link>
                     </CardActions>
